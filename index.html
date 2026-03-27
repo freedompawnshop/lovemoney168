@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自由當舖 | 屏東專業融資、汽機車借款免留車</title>
+    <style>
+        :root {
+            --brand-blue: #0d2a54; /* 匹配 Logo 的深藍色 */
+            --brand-gold: #d4af37; /* 匹配 Logo 的金色 */
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            margin: 0;
+            background-color: var(--light-bg);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* 導覽列與 Logo 區 */
+        header {
+            background-color: var(--brand-blue);
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 3px solid var(--brand-gold);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .logo-img {
+            max-width: 220px; /* 調整 Logo 顯示大小 */
+            height: auto;
+            filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+        }
+
+        /* 主視覺區 */
+        .hero {
+            background: linear-gradient(rgba(13, 42, 84, 0.8), rgba(13, 42, 84, 0.8)), 
+                        url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=1200');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h2 { font-size: 2rem; color: var(--brand-gold); margin-bottom: 15px; }
+        .hero p { font-size: 1.1rem; margin-bottom: 30px; }
+
+        /* 按鈕組 */
+        .action-btns {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .btn {
+            width: 85%;
+            max-width: 320px;
+            padding: 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+        }
+
+        .btn-line { background: #00B900; color: white; }
+        .btn-call { background: var(--brand-gold); color: #000; }
+        .btn-map { background: #ea4335; color: white; }
+
+        /* 特色服務 */
+        .section-title { text-align: center; margin: 40px 0 20px; color: var(--brand-blue); }
+        .grid { padding: 0 20px 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 25px; border-radius: 12px; border-top: 5px solid var(--brand-gold); box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+
+        /* 頁尾聯絡資訊 */
+        footer {
+            background: #111;
+            color: #bbb;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 0.9rem;
+        }
+
+        .info-text { margin: 5px 0; color: #eee; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="自由當舖 Logo" class="logo-img">
+    </header>
+
+    <section class="hero">
+        <h2>屏東急用首選 ‧ 合法立案</h2>
+        <p>萬物皆可貸，手續簡便，最快 10 分鐘領現<br>免留車借款，讓您的生活不受影響</p>
+        
+        <div class="action-btns">
+            <a href="https://line.me/ti/p/~A7237673" class="btn btn-line">🟢 加 LINE 諮詢 (ID: A7237673)</a>
+            <a href="tel:087320000" class="btn btn-call">📞 撥打諮詢專線</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=屏東市自由路354之4號" target="_blank" class="btn btn-map">📍 導航到店 (自由路)</a>
+        </div>
+    </section>
+
+    <h2 class="section-title">服務項目</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>🚗 汽機車借款</h3>
+            <p>政府立案、免留車。不論車齡，有車就借，額度最高，利息最優。</p>
+        </div>
+        <div class="card">
+            <h3>💎 珠寶名錶質押</h3>
+            <p>黃金、鑽石、名錶高價收購質借。由專業人員為您鑑定，隱私絕對保密。</p>
+        </div>
+        <div class="card">
+            <h3>📱 3C 家電周轉</h3>
+            <p>手機、筆電、PS5、智慧家電。急用免求人，萬物皆可變現金。</p>
+        </div>
+    </div>
+
+    <footer>
+        <p class="info-text">📍 地址：屏東市自由路354之4號</p>
+        <p class="info-text">🕒 營業時間：週一至週五 09:00 - 18:00 (歡迎預約)</p>
+        <p class="info-text">服務代碼：A7237673</p>
+        <br>
+        <p>&copy; 2026 自由當舖 版權所有</p>
+    </footer>
+
+</body>
+</html>
